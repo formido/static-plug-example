@@ -1,0 +1,9 @@
+version: '2'
+services:
+  static-plug:
+    image: elixir
+    volumes:
+      - .:/code
+    ports:
+      - "${PORT}:8000"
+
